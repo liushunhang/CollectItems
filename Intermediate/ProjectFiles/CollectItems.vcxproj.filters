@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\CollectItems.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{7C43AECC-9760-44B3-8542-1F5ACCE6C97A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CollectItems.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\CollectItemsEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{235D2123-0FB1-403E-B42B-AFC2F118F576}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\CollectItems">
+      <UniqueIdentifier>{27339056-F153-48A4-8294-9F1C0F71650B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CollectItems\CollectiblesUI.cpp">
+      <Filter>Source\CollectItems</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CollectItems\CollectiblesUI.h">
+      <Filter>Source\CollectItems</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\CollectItems\CollectItems.Build.cs">
+      <Filter>Source\CollectItems</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\CollectItems\CollectItems.cpp">
+      <Filter>Source\CollectItems</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CollectItems\CollectItems.h">
+      <Filter>Source\CollectItems</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CollectItems\CollectItemsCharacter.cpp">
+      <Filter>Source\CollectItems</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CollectItems\CollectItemsCharacter.h">
+      <Filter>Source\CollectItems</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CollectItems\CollectItemsGameMode.cpp">
+      <Filter>Source\CollectItems</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CollectItems\CollectItemsGameMode.h">
+      <Filter>Source\CollectItems</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\CollectItems\CollectPlayerController.h">
+      <Filter>Source\CollectItems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CollectItems\ACollectible.h">
+      <Filter>Source\CollectItems</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\CollectItems\CollectPlayerController.cpp">
+      <Filter>Source\CollectItems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CollectItems\ACollectible.cpp">
+      <Filter>Source\CollectItems</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
